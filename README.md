@@ -9,4 +9,4 @@
 
 - [Modules, packages, and imports in Python](https://github.com/pyLexxDramma/Accounting)
 
-- [Задание4](https://github.com/pyLexxDramma/dice_game)
+- [dice_game](https://github.com/pyLexxDramma/dice_game)
