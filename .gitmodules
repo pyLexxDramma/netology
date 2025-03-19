@@ -1,0 +1,6 @@
+[submodule "Accounting"]
+	path = Accounting
+	url = https://github.com/pyLexxDramma/Accounting.git
+[submodule "working_with_SQL"]
+	path = working_with_SQL
+	url = https://github.com/pyLexxDramma/working_with_SQL.git
