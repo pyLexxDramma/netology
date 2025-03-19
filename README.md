@@ -4,4 +4,5 @@
 [homework3](https://github.com/pyLexxDramma/working_with_SQL/tree/e4804626555e5e7e0a05e62973db22f590ba5d42/homework3)
 ## Professional work with Python
 [Modules, packages, and imports in Python](https://github.com/pyLexxDramma/Accounting)
-[Задание4-Найти интересный для себя пакет на pypi и в файле requirements.txt указать его с актуальной версией. При желании можно написать программу с этим пакетом.](https://github.com/pyLexxDramma/dice_game)
+
+[Задание4](https://github.com/pyLexxDramma/dice_game)
