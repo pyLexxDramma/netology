@@ -12,3 +12,5 @@
 - [Regular expressions](https://github.com/pyLexxDramma/netology/tree/main/regexp)
 
 - [Web-scrapping](https://github.com/pyLexxDramma/netology/tree/main/Web-scrapping)
+
+- [Iterators](https://github.com/pyLexxDramma/netology/tree/main/Iterators)
