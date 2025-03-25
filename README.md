@@ -9,4 +9,6 @@
 
 - [Modules, packages, and imports in Python](https://github.com/pyLexxDramma/Accounting)
 
-- [Regular expressions»](https://github.com/pyLexxDramma/netology/tree/main/regexp)
+- [Regular expressions](https://github.com/pyLexxDramma/netology/tree/main/regexp)
+
+- [Web-scrapping](https://github.com/pyLexxDramma/netology/tree/main/Web-scrapping)
