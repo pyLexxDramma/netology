@@ -31,7 +31,6 @@ def logger(path):
 
     return __logger
 
-# 2. Чтение данных из CSV
 @logger("phonebook.log")
 def read_csv_file(filename):
     with open(filename, encoding="utf-8") as f:
@@ -106,18 +105,15 @@ def quote_fields_with_commas(contacts):
             if isinstance(contact[i], str) and "," in contact[i]:
                 contact[i] = f'"{contact[i]}"'
 
-# 4. Создание Excel-файла и запись данных
 @logger("phonebook.log")
 def write_to_excel(contacts_list, filename="phonebook.xlsx"):
     workbook = openpyxl.Workbook()
     sheet = workbook.active
 
-    # Записываем данные в ячейки
     for row_num, contact in enumerate(contacts_list, start=1):
         for col_num, cell_value in enumerate(contact, start=1):
             sheet.cell(row=row_num, column=col_num, value=cell_value)
 
-    # Автоматическая ширина столбцов
     for col_num in range(1, len(contacts_list[0]) + 1):
         column_letter = get_column_letter(col_num)
         column_width = max(len(str(cell.value)) for cell in sheet[column_letter])
@@ -126,15 +122,12 @@ def write_to_excel(contacts_list, filename="phonebook.xlsx"):
     workbook.save(filename)
     print(f"Файл '{filename}' успешно создан.")
 
-# 5. Основная часть программы
 if __name__ == "__main__":
     csv_filename = "phonebook_raw.csv"
     excel_filename = "phonebook.xlsx"
 
-    # Чтение данных из CSV
     contacts_list = read_csv_file(csv_filename)
 
-    # Обработка данных
     strip_spaces(contacts_list)
     clean_data(contacts_list)
     format_name(contacts_list)
@@ -142,7 +135,6 @@ if __name__ == "__main__":
     contacts_list = merge_duplicates(contacts_list)
     quote_fields_with_commas(contacts_list)
 
-    # Запись данных в Excel
     write_to_excel(contacts_list, excel_filename)
 
     pprint(contacts_list)
