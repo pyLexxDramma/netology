@@ -14,3 +14,5 @@
 - [Web-scrapping](https://github.com/pyLexxDramma/netology/tree/main/Web-scrapping)
 
 - [Regexp](https://github.com/pyLexxDramma/netology/tree/main/regexp)
+
+- [Decorators](https://github.com/pyLexxDramma/netology/tree/main/Decorators)
