@@ -13,6 +13,10 @@
 
 - [Web-scrapping](https://github.com/pyLexxDramma/netology/tree/main/Web-scrapping)
 
-- [Regexp](https://github.com/pyLexxDramma/netology/tree/main/regexp)
+- [Iterator and generators](https://github.com/pyLexxDramma/netology/tree/main/Iterators)
 
 - [Decorators](https://github.com/pyLexxDramma/netology/tree/main/Decorators)
+
+- [Tests](https://github.com/pyLexxDramma/netology/tree/main/Tests)
+
+- [Interview](https://github.com/pyLexxDramma/netology/tree/main/Stack)
