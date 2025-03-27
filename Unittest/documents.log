@@ -1,0 +1,400 @@
+Date and time: 2025-03-27 10:42:02.547620
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '4'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.547620
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': [], '4': []}, '1'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:02.548617
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '3'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:02.548617
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, 'new_doc', '3'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.548617
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.548617
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, 'new_doc2', '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.548617
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.548617
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:02.549615
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.549615
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.549615
+Function name: delete_doc
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.549615
+Function name: check_document_existance
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:02.549615
+Function name: delete_doc
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:02.549615
+Function name: get_all_doc_owners_names
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}],), kwargs: {}
+Return value: {'Аристарх Павлов', 'Геннадий Покемонов', 'Василий Гупкин'}
+---------------------
+Date and time: 2025-03-27 10:42:02.550612
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.550612
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: Василий Гупкин
+---------------------
+Date and time: 2025-03-27 10:42:02.550612
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:02.550612
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: None
+---------------------
+Date and time: 2025-03-27 10:42:02.550612
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:02.550612
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.527912
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '4'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.527912
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': [], '4': []}, '1'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.527912
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '3'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.527912
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, 'new_doc', '3'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.527912
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.527912
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, 'new_doc2', '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.528910
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.528910
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.528910
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.528910
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.528910
+Function name: delete_doc
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.529907
+Function name: check_document_existance
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.529907
+Function name: delete_doc
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.529907
+Function name: get_all_doc_owners_names
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}],), kwargs: {}
+Return value: {'Василий Гупкин', 'Аристарх Павлов', 'Геннадий Покемонов'}
+---------------------
+Date and time: 2025-03-27 10:42:38.529907
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.529907
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: Василий Гупкин
+---------------------
+Date and time: 2025-03-27 10:42:38.530904
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:42:38.530904
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: None
+---------------------
+Date and time: 2025-03-27 10:42:38.530904
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:42:38.530904
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.960162
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '4'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.961159
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': [], '4': []}, '1'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.961159
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '3'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.961159
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, 'new_doc', '3'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.961159
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.961159
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, 'new_doc2', '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.961159
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.962156
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.962156
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.962156
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.962156
+Function name: delete_doc
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.962156
+Function name: check_document_existance
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.962156
+Function name: delete_doc
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.963152
+Function name: get_all_doc_owners_names
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}],), kwargs: {}
+Return value: {'Василий Гупкин', 'Аристарх Павлов', 'Геннадий Покемонов'}
+---------------------
+Date and time: 2025-03-27 10:50:57.963152
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.963152
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: Василий Гупкин
+---------------------
+Date and time: 2025-03-27 10:50:57.963152
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:50:57.963152
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: None
+---------------------
+Date and time: 2025-03-27 10:50:57.963152
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:50:57.964150
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.236982
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '4'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.236982
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': [], '4': []}, '1'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.238051
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '3'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.238051
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, 'new_doc', '3'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.238051
+Function name: add_new_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.238051
+Function name: append_doc_to_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': ['new_doc']}, 'new_doc2', '5'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.238051
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.238051
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.239050
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.239050
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.239050
+Function name: delete_doc
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.239050
+Function name: check_document_existance
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.239050
+Function name: delete_doc
+Arguments: args: ([{'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], {'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.239050
+Function name: get_all_doc_owners_names
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}],), kwargs: {}
+Return value: {'Геннадий Покемонов', 'Аристарх Павлов', 'Василий Гупкин'}
+---------------------
+Date and time: 2025-03-27 10:57:33.240047
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.240047
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], '2207 876234'), kwargs: {}
+Return value: Василий Гупкин
+---------------------
+Date and time: 2025-03-27 10:57:33.240047
+Function name: check_document_existance
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
+Date and time: 2025-03-27 10:57:33.240047
+Function name: get_doc_owner_name
+Arguments: args: ([{'type': 'passport', 'number': '2207 876234', 'name': 'Василий Гупкин'}, {'type': 'invoice', 'number': '11-2', 'name': 'Геннадий Покемонов'}, {'type': 'insurance', 'number': '10006', 'name': 'Аристарх Павлов'}], 'nonexistent'), kwargs: {}
+Return value: None
+---------------------
+Date and time: 2025-03-27 10:57:33.240047
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['2207 876234', '11-2', '5455 028765'], '2': ['10006'], '3': []}, '2207 876234'), kwargs: {}
+Return value: True
+---------------------
+Date and time: 2025-03-27 10:57:33.240047
+Function name: remove_doc_from_shelf
+Arguments: args: ({'1': ['11-2', '5455 028765'], '2': ['10006'], '3': []}, 'nonexistent'), kwargs: {}
+Return value: False
+---------------------
