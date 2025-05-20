@@ -1,4 +1,4 @@
-## Working_with_SQL 
+## Working with SQL 
 - [homework1](https://github.com/pyLexxDramma/working_with_SQL/tree/e4804626555e5e7e0a05e62973db22f590ba5d42/homework1)
 
 - [homework2](https://github.com/pyLexxDramma/working_with_SQL/tree/e4804626555e5e7e0a05e62973db22f590ba5d42/homework2)
