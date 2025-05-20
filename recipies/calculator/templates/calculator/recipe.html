@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рецепт</title>
+</head>
+<body>
+    <h1>Рецепт</h1>
+    <a href="{% url 'recipe_list' %}">Назад к списку рецептов</a>
+    {% if recipe %}
+        <ul>
+        {% for ingredient, quantity in recipe.items %}
+            <li>{{ ingredient }}: {{ quantity }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>Рецепт не найден.</p>
+    {% endif %}
+</body>
+</html>
