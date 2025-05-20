@@ -19,4 +19,6 @@
 
 - [Tests](https://github.com/pyLexxDramma/netology/tree/main/Tests)
 
-- [Interview](https://github.com/pyLexxDramma/netology/tree/main/Stack)
+##  Django
+
+- [1.2-requests-templates](https://github.com/pyLexxDramma/netology/tree/main/recipies) - Рецепты.
