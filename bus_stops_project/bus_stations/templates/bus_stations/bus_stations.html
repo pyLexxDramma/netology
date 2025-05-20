@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Список остановок</title>
+</head>
+<body>
+    <h1>Список остановок</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Локальный идентификатор</th>
+                <th>Наименование</th>
+                <th>Направление</th>
+                <th>Наличие павильона</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for station in page.object_list %}
+            <tr>
+                <td>{{ station.ID }}</td>
+                <td>{{ station.Name }}</td>
+                <td>{{ station.Direction }}</td>
+                <td>{{ station.Pavilion }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if page.has_previous %}
+                <a href="?page=1">&laquo; первая</a>
+                <a href="?page={{ page.previous_page_number }}">предыдущая</a>
+            {% endif %}
+
+            <span class="current">
+                Страница {{ page.number }} из {{ page.paginator.num_pages }}.
+            </span>
+
+            {% if page.has_next %}
+                <a href="?page={{ page.next_page_number }}">следующая</a>
+                <a href="?page={{ page.paginator.num_pages }}">последняя &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</body>
+</html>
