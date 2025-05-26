@@ -24,3 +24,7 @@
 - [Обработка запросов и шаблоны](https://github.com/pyLexxDramma/netology/tree/main/recipies) - Рецепты.
 
 - [Обработка запросов и шаблоны](https://github.com/pyLexxDramma/netology/tree/main/bus_stops_project) - Пагинация.
+
+## Работа с ORM
+
+- [Выгрузка каталога товаров](https://github.com/pyLexxDramma/netology/tree/main/work_with_database)
