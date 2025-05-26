@@ -28,3 +28,5 @@
 ## Работа с ORM
 
 - [Выгрузка каталога товаров](https://github.com/pyLexxDramma/netology/tree/main/work_with_database)
+
+- [Онлайн-библиотека](https://github.com/pyLexxDramma/netology/tree/main/models_list_displaying)
