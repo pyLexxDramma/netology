@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\books",
+    "\\books\\migrations",
+    "\\main",
+    "\\templates",
+    "\\templates\\books"
+  ],
+  "SelectedNode": "\\books\\views.py",
+  "PreviewInSolutionExplorer": false
+}
