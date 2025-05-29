@@ -30,3 +30,9 @@
 - [Выгрузка каталога товаров](https://github.com/pyLexxDramma/netology/tree/main/work_with_database)
 
 - [Онлайн-библиотека](https://github.com/pyLexxDramma/netology/tree/main/models_list_displaying)
+
+## Работа с ORM, часть 2
+
+- [Миграции](https://github.com/pyLexxDramma/netology/tree/main/orm_migrations)
+
+- [Связь многие-ко-многим](https://github.com/pyLexxDramma/netology/tree/main/m2m-relations)
