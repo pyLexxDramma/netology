@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\articles_list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\articles\\articles_list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:articles\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:articles\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\static\\articles\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:static\\articles\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\website\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:website\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\website\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:website\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:articles\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\tag_detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\articles\\tag_detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:articles\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\articles\\news.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:templates\\articles\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:articles\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:articles\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\static\\articles\\css\\styles.css",
+              "RelativeDocumentMoniker": "static\\articles\\css\\styles.css",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\static\\articles\\css\\styles.css",
+              "RelativeToolTip": "static\\articles\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-29T08:04:17.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tag_detail.html",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\tag_detail.html",
+              "RelativeDocumentMoniker": "templates\\articles\\tag_detail.html",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\tag_detail.html",
+              "RelativeToolTip": "templates\\articles\\tag_detail.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-29T06:51:49.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\website\\urls.py",
+              "RelativeDocumentMoniker": "website\\urls.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\website\\urls.py",
+              "RelativeToolTip": "website\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T05:49:30.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "articles_list.html",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\articles_list.html",
+              "RelativeDocumentMoniker": "templates\\articles\\articles_list.html",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\articles_list.html",
+              "RelativeToolTip": "templates\\articles\\articles_list.html",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-29T05:27:59.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\models.py",
+              "RelativeDocumentMoniker": "articles\\models.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\models.py",
+              "RelativeToolTip": "articles\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T04:30:29.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\website\\settings.py",
+              "RelativeDocumentMoniker": "website\\settings.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\website\\settings.py",
+              "RelativeToolTip": "website\\settings.py",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAD8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T04:18:56.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "admin.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\admin.py",
+              "RelativeDocumentMoniker": "articles\\admin.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\admin.py",
+              "RelativeToolTip": "articles\\admin.py",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T04:32:10.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\views.py",
+              "RelativeDocumentMoniker": "articles\\views.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\views.py",
+              "RelativeToolTip": "articles\\views.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T05:16:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\urls.py",
+              "RelativeDocumentMoniker": "articles\\urls.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\urls.py",
+              "RelativeToolTip": "articles\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T06:47:12.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "news.html",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\news.html",
+              "RelativeDocumentMoniker": "templates\\articles\\news.html",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\news.html",
+              "RelativeToolTip": "templates\\articles\\news.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-29T05:21:03.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "base.html",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\base.html",
+              "RelativeDocumentMoniker": "templates\\articles\\base.html",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\templates\\articles\\base.html",
+              "RelativeToolTip": "templates\\articles\\base.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-29T05:20:56.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "__init__.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\__init__.py",
+              "RelativeDocumentMoniker": "articles\\__init__.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\__init__.py",
+              "RelativeToolTip": "articles\\__init__.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T04:46:05.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "apps.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\apps.py",
+              "RelativeDocumentMoniker": "articles\\apps.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\2.2-databases-2\\m2m-relations\\articles\\apps.py",
+              "RelativeToolTip": "articles\\apps.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-05-29T04:38:51.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

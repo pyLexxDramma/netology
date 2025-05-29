@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости</title>
+    <link rel="stylesheet" href="{% static 'articles/css/styles.css' %}">
+</head>
+<body>
+    <h1>Будь в курсе событий</h1>
+    <div class="articles-container">
+        {% for article in articles %}
+        <div class="article">
+            {% if article.image %}
+            <img src="{{ article.image.url }}" alt="{{ article.title }}" width="200">
+            {% endif %}
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.text }}</p>
+            <p>Дата публикации: {{ article.published_at }}</p>
+            <ul class="tag-list">
+                {% if article.main_scope %}
+                <li>
+                    <a href="{% url 'tag_detail' article.main_scope.tag.pk %}" class="tag-link tag-main">{{ article.main_scope.tag.name }}</a>
+                </li>
+                {% endif %}
+                {% for scope in article.other_scopes %}
+                <li>
+                    <a href="{% url 'tag_detail' scope.tag.pk %}" class="tag-link">{{ scope.tag.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            <hr>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
