@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\measurement",
+    "\\measurement\\migrations",
+    "\\smart_home"
+  ],
+  "SelectedNode": "\\measurement\\migrations\\0002_measurement_image.py",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\migrations\\0002_measurement_image.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:measurement\\migrations\\0002_measurement_image.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\serializers.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:measurement\\serializers.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\smart_home\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:smart_home\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\smart_home\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:smart_home\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:measurement\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:measurement\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:measurement\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "0002_measurement_image.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\migrations\\0002_measurement_image.py",
+              "RelativeDocumentMoniker": "measurement\\migrations\\0002_measurement_image.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\migrations\\0002_measurement_image.py",
+              "RelativeToolTip": "measurement\\migrations\\0002_measurement_image.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T06:52:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "models.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\models.py",
+              "RelativeDocumentMoniker": "measurement\\models.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\models.py",
+              "RelativeToolTip": "measurement\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T06:20:40.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "serializers.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\serializers.py",
+              "RelativeDocumentMoniker": "measurement\\serializers.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\serializers.py",
+              "RelativeToolTip": "measurement\\serializers.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T06:02:30.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\views.py",
+              "RelativeDocumentMoniker": "measurement\\views.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\views.py",
+              "RelativeToolTip": "measurement\\views.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T06:00:18.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\smart_home\\urls.py",
+              "RelativeDocumentMoniker": "smart_home\\urls.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\smart_home\\urls.py",
+              "RelativeToolTip": "smart_home\\urls.py",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T05:58:22.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\urls.py",
+              "RelativeDocumentMoniker": "measurement\\urls.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\measurement\\urls.py",
+              "RelativeToolTip": "measurement\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T05:57:37.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\smart_home\\settings.py",
+              "RelativeDocumentMoniker": "smart_home\\settings.py",
+              "ToolTip": "C:\\Users\\lexxd\\Desktop\\dj-homeworks-video\\dj-homeworks-video\\3.1-drf-intro\\smart_home\\smart_home\\settings.py",
+              "RelativeToolTip": "smart_home\\settings.py",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAYwIcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-03T05:41:10.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
