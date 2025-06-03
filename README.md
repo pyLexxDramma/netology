@@ -36,3 +36,7 @@
 - [Миграции](https://github.com/pyLexxDramma/netology/tree/main/orm_migrations)
 
 - [Связь многие-ко-многим](https://github.com/pyLexxDramma/netology/tree/main/m2m-relations)
+
+## Работа с API на примере Django REST framework
+
+- [Умный дом](https://github.com/pyLexxDramma/netology/tree/main/3.1-drf-intro/smart_home) - Реализация некоторых действий из CRUD, используя Django Rest Framework.
