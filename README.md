@@ -43,4 +43,4 @@
 
 - [CRUD](https://github.com/pyLexxDramma/netology/tree/main/3.2-crud/stocks_products) - CRUD-логика для продуктов и складов, используя Django Rest Framework.
 
-- [Django REST framework: фильтрация, валидация и аутентификация](https://github.com/pyLexxDramma/netology/tree/main/3.3-permissions/api_with_restrictions) - Backend для приложения с объявлениями.
+- [Django REST framework](https://github.com/pyLexxDramma/netology/tree/main/3.3-permissions/api_with_restrictions) - Backend для приложения с объявлениями.
