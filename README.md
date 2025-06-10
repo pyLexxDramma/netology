@@ -21,7 +21,7 @@
 
 ##  Django
 
-- [Обработка запросов и шаблоны](https://github.com/pyLexxDramma/netology/tree/main/recipies) - Рецепты.
+- [Обработка запросов и шаблоны](https://github.com/pyLexxDramma/netology/tree/main/recipies) - Сервис-помощник для приготовления блюд в Django.
 
 - [Обработка запросов и шаблоны](https://github.com/pyLexxDramma/netology/tree/main/bus_stops_project) - Пагинация.
 
