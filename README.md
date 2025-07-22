@@ -46,3 +46,7 @@
 - [Django REST framework](https://github.com/pyLexxDramma/netology/tree/main/3.3-permissions/api_with_restrictions) - Backend для приложения с объявлениями.
 
 - [Тестирование Django-приложения](https://github.com/pyLexxDramma/netology/tree/main/3.4-django-testing/django_testing) - Тестирование Django-приложения с использованием Pytest.
+
+## Python в веб-разработке
+
+- [Основы терминала](https://github.com/pyLexxDramma/netology/tree/main/Основы%20терминала)
