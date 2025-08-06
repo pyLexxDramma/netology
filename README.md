@@ -50,3 +50,5 @@
 ## Python в веб-разработке
 
 - [Основы терминала](https://github.com/pyLexxDramma/netology/tree/main/Основы%20терминала)
+
+[Flask](https://github.com/pyLexxDramma/netology/tree/main/flask)
