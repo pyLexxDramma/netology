@@ -54,3 +54,5 @@
 - [Flask](https://github.com/pyLexxDramma/netology/tree/main/flask)
 
 - [Docker](https://github.com/pyLexxDramma/netology/tree/main/Docker)
+
+- [Asyncio](https://github.com/pyLexxDramma/netology/tree/main/asyncio)
