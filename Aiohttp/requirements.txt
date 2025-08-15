@@ -1,0 +1,4 @@
+aiohttp
+aiohttp-apispec
+marshmallow
+marshmallow-dataclass
