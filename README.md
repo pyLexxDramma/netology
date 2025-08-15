@@ -31,7 +31,7 @@
 
 - [Онлайн-библиотека](https://github.com/pyLexxDramma/netology/tree/main/models_list_displaying)
 
-## Работа с ORM, часть 2
+## Работа с ORM, ч.2
 
 - [Миграции](https://github.com/pyLexxDramma/netology/tree/main/orm_migrations)
 
