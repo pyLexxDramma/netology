@@ -1,0 +1,43 @@
+version: "3.9"
+
+networks:
+  - backend:
+
+services:
+  nginx:
+    depends_on:
+      - django_app
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./static:/static
+    networks:
+      - backend
+
+  db:
+    image: postgres:alpine
+    env_file:
+      - db.env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -u postgres -d stocks_products_db"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+
+  django_app:
+    depends_on:
+      - db
+    image: stocks_products:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - backend
