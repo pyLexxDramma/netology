@@ -55,4 +55,6 @@
 
 - [Docker](https://github.com/pyLexxDramma/netology/tree/main/Docker)
 
+- [Docker-Compose](https://github.com/pyLexxDramma/netology/tree/main/Docker_compose)
+
 - [Asyncio](https://github.com/pyLexxDramma/netology/tree/main/asyncio)
