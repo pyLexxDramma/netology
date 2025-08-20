@@ -60,3 +60,5 @@
 - [Asyncio](https://github.com/pyLexxDramma/netology/tree/main/asyncio)
 
 - [Aiohttp](https://github.com/pyLexxDramma/netology/tree/main/Aiohttp)
+
+- [3.1-fast-api-1](https://github.com/pyLexxDramma/netology/tree/main/fastapi_advertisements) - Сервис на fastapi и его докеризация.
