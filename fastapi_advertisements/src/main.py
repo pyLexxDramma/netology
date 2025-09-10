@@ -23,8 +23,9 @@ class Advertisement(BaseModel):
     updated_at: Optional[datetime] = None
     id: Optional[int] = None
 
-    class Config:
-        from_attributes = True
+    model_config = {
+        "from_attributes": True
+    }
 
 advertisements = []
 next_id = 1
@@ -44,7 +45,7 @@ async def read_advertisement(advertisement_id: int):
     for advertisement in advertisements:
         if advertisement.id == advertisement_id:
             return advertisement
-    raise HTTPException(status_code=404, detail="Advertisement not found")
+    raise HTTPException(status_code=404, detail="Announcement not found")
 
 @app.patch("/advertisement/{advertisement_id}", response_model=Advertisement | None)
 async def update_advertisement(advertisement_id: int, request: Request):
@@ -53,12 +54,12 @@ async def update_advertisement(advertisement_id: int, request: Request):
             try:
                 request_body = await request.json()
             except Exception as e:
-                raise HTTPException(status_code=400, detail="Invalid JSON body")
+                raise HTTPException(status_code=400, detail="Invalid JSON format")
 
             if not isinstance(request_body, dict):
-                raise HTTPException(status_code=400, detail="Request body must be a JSON object")
+                raise HTTPException(status_code=400, detail="Request body should be a dictionary")
 
-            advertisement_data = advertisement.dict()
+            advertisement_data = advertisement.model_dump()
 
             if "title" in request_body:
                 advertisement_data["title"] = request_body["title"]
@@ -69,21 +70,21 @@ async def update_advertisement(advertisement_id: int, request: Request):
             if "author" in request_body:
                 advertisement_data["author"] = request_body["author"]
 
-            updated_advertisement = Advertisement(**advertisement_data)
+            updated_advertisement = Advertisement.model_validate(advertisement_data)
             updated_advertisement.updated_at = datetime.now()
 
             advertisements[index] = updated_advertisement
             return updated_advertisement
 
-    raise HTTPException(status_code=404, detail="Advertisement not found")
+    raise HTTPException(status_code=404, detail="Announcement not found")
 
 @app.delete("/advertisement/{advertisement_id}")
 async def delete_advertisement(advertisement_id: int):
     for index, advertisement in enumerate(advertisements):
         if advertisement.id == advertisement_id:
             del advertisements[index]
-            return {"message": "Advertisement deleted"}
-    raise HTTPException(status_code=404, detail="Advertisement not found")
+            return {"message": "Announcement deleted successfully"}
+    raise HTTPException(status_code=404, detail="Announcement not found")
 
 @app.get("/advertisement/")
 async def search_advertisements(title: Optional[str] = None, description: Optional[str] = None,
