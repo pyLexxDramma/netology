@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi-adverts"
+version = "0.1.0"
+description = "Простое приложение FastAPI для работы с объявлениями"
+authors = [
+    { name = "LexxDramma", email = "lexxdramma@vk.com" },
+]
+license = { text = "MIT" }

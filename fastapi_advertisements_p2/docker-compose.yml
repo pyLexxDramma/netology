@@ -1,8 +1,13 @@
-version: "3.9"
+version: '3.8'
+
 services:
-  web:
-    build: .
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "80:80"
+    volumes:
+      - .:/app
     environment:
       SECRET_KEY: "fdab2c0836a3610b1d4b485478aa50e22ffe7a04c7cd022e80555c7e0ab0308a"
