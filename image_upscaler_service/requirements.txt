@@ -1,0 +1,8 @@
+numpy==1.26.4
+opencv-contrib-python==4.10.0.84
+Flask==3.0.3
+celery==5.4.0
+redis==5.0.7
+pytest
+pytest-redis
+pytest-mock
